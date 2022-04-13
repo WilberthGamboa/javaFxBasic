@@ -3,22 +3,30 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
+    "vmArgs": "--module-path \"C:/Java/javafx-sdk-18/lib\" --add-modules javafx.controls,javafx.fxml",
     "configurations": [
+        {
+            "type": "java",
+            "name": "Launch LayoutsVBox",
+            "request": "launch",
+            "mainClass": "Controlador.LayoutsVBox",
+            "projectName": "javaFxBasic_38949ca0",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-18/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
         {
             "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}",
             "vmArgs": "--module-path \"C:/Java/javafx-sdk-18/lib\" --add-modules javafx.controls,javafx.fxml"
-            
-            
         },
         {
             "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "Controlador.App",
-            "projectName": "javaFxBasic_38949ca0"
+            "projectName": "javaFxBasic_38949ca0",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-18/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -27,7 +35,6 @@
             "mainClass": "Controlador.Layaout",
             "projectName": "javaFxBasic_38949ca0",
             "vmArgs": "--module-path \"C:/Java/javafx-sdk-18/lib\" --add-modules javafx.controls,javafx.fxml"
-           
         }
     ]
 }
